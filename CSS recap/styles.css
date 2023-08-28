@@ -1,0 +1,52 @@
+
+body, h1, p {
+  margin: 100px;
+  padding: 0;
+
+}
+
+ 
+.profile-card {
+  text-align: center;
+  background-color:grey;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 50px ;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: inherit;
+ 
+}
+
+
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid grey;
+}
+
+
+.profile-card h1 {
+  font-size: 30px;
+  margin-bottom: center;
+  color: black;
+}
+
+
+.profile-card p {
+  font-size: 18px;
+  color:black;
+}
+
+
+.profile-card:hover {
+  background-color: grey;
+  transform: scale(1.02);
+  transition: background-color 0.3s, transform 0.3s;
+}
